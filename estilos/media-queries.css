@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: #caf0f8;
+    --cor2: #90e0ef;
+    --cor3: #00b4d8;
+    --cor4: #0077b6;
+    --cor5: #03045e;
+    --cor6: #00ffff;
+
+    --fonte-padrao:'Source Sans Pro', cursive, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
 /* Typical Device Breakpoints
 -----------------------------
 Telas pequenas: até 600px
@@ -9,6 +21,51 @@ Desktop: 992px à 1200px
 Telas Grandes: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px){
+    /* Coonfiguração para tablets */
+    html, body {
+        background-image: linear-gradient(to top, var(--cor3), var(--cor4));
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+
+    header > h1 {
+        width: 630px;
+    }
+
+    header > span#burguer {
+        display: none;
+    }
     
+    header > menu {
+        display: block;
+    }
+    
+    header > menu > ul {
+        display: inline-flex;
+        justify-content: space-between;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+    
+    header > menu > ul > li {
+        border: none;
+    }
+    
+    header > menu > ul > li > a{
+        display: block;
+        padding: 5px;
+        margin: auto;
+    }
+    
+    header > menu > ul > li:hover {
+        border-radius: 8px;
+    }
+
+    main {
+        width: 600px;
+    }
+
 }
