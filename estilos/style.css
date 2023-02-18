@@ -26,6 +26,7 @@
 
 body {
     background-color: var(--cor3);
+    height: 90vh;
 }
 
 header {
