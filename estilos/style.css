@@ -32,27 +32,59 @@ header {
     text-align: center;
 }
 
-header > menu > h1 {
+header > h1 {
     background-color: white;
-    width: 350px;
+    width: 330px;
     margin: auto;
-    border-radius: 0px 0px 10px 10px;
+    /* border-radius: 0px 0px 10px 10px; */
+}
+
+header > span#burguer {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    width: 320px;
+    margin: auto;
+    /* border-radius: 10px; */
+    background-color: var(--cor4);
+}
+
+header > span#burguer:hover {
+    /* width: 30px; */
+    background-color: var(--cor2);
+}
+
+header > menu {
+    display: none;
 }
 
 header > menu > ul {
     list-style-type: none;
-    width: 100px;
+    width: 330px;
     margin: auto;
-    
+    cursor: pointer;
+    background-color: var(--cor4);
 }
 
 header > menu > ul > li:hover {
-    background-color: var(--cor4);
+    background-color: var(--cor2);
 }
 
 header > menu > ul > li > a {
     color: white;
     text-decoration: none;
+}
+
+main {
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    height: 580px;
+    /* height: 145vw; */
 }
 
 main > div#foto-bg {
@@ -80,15 +112,6 @@ main > div > div#foto-perfil {
     transform: translate(-50%, -125%);
 }
 
-main {
-    background-color: white;
-    width: 300px;
-    margin: auto;
-    padding: 15px;
-    border-radius: 10px;
-    height: 580px;
-    /* height: 145vw; */
-}
 
 main > h1 {
     text-align: center;
