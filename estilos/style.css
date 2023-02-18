@@ -24,9 +24,9 @@
     /* font-size: 1em; */
 }
 
-body {
+body, html {
     background-color: var(--cor3);
-    /* height: 90vh; */
+    height: 50vh;
 }
 
 header {
@@ -87,7 +87,6 @@ header > menu > ul > li:hover {
 
 }
 
-
 header > menu > ul > li > a {
     color: white;
     text-decoration: none;
@@ -99,9 +98,8 @@ main {
     margin: auto;
     padding: 15px;
     border-radius: 0px 0px 10px 10px;
-    height: 540px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.534);
-    height: 75vh;
+    min-height: 340px;
 }
 
 main > div#foto-bg {
@@ -162,11 +160,16 @@ main > article > h2 {
 main > article > p {
     text-align: justify;
     text-indent: 10px;
-    padding: 10px;
+    padding: 5px;
     font-size: 0.9em;
 }
 
-main > article ul > li > a {
-    color: black;
+main > article > ul {
+    /* position: relative;
+    transform: translateY(-30%); */
     padding: 10px;
+}
+
+main > article > ul > li > a {
+    color: black;
 }
