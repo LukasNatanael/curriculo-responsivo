@@ -38,6 +38,7 @@ header > h1 {
     margin: auto;
     margin-top: 5%;
     border-radius: 10px 10px 0px 0px;
+    font-size: 1.3em;
 }
 
 header > span#burguer {
@@ -84,14 +85,14 @@ main {
     margin: auto;
     padding: 15px;
     border-radius: 0px 0px 10px 10px;
-    height: 580px;
+    height: 500px;
     /* height: 145vw; */
 }
 
 main > div#foto-bg {
     background-image: url(../img/bg1.jpg);
     position: relative;
-    height: 90px;
+    height: 65px;
     width: 300px;
     margin: auto;
     border-radius: 20px;
@@ -108,7 +109,7 @@ main > div > div#foto-perfil {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    top: 120%;
+    top: 130%;
     left: 50%;
     transform: translate(-50%, -125%);
 }
@@ -116,7 +117,7 @@ main > div > div#foto-perfil {
 
 main > h1 {
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.3em;
     padding: 15px 0px;
 }
 
@@ -128,7 +129,7 @@ main > article {
 
 main > article > h2 {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
     background-color: var(--cor3);
     border-radius: 10px 10px 0px 0px;
     color: white;
@@ -139,5 +140,5 @@ main > article > p {
     text-align: justify;
     text-indent: 10px;
     padding: 10px;
-
+    font-size: 0.9em;
 }
