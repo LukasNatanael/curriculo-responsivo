@@ -90,6 +90,8 @@ header > menu > ul > li:hover {
 header > menu > ul > li > a {
     color: white;
     text-decoration: none;
+    /* background-color: red; */
+    padding: 0px 126px;
 }
 
 main {
