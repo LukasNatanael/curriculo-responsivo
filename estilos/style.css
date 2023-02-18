@@ -39,6 +39,8 @@ header > h1 {
     margin-top: 5%;
     border-radius: 10px 10px 0px 0px;
     font-size: 1.3em;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.534);
+
 }
 
 header > span#burguer {
@@ -51,6 +53,8 @@ header > span#burguer {
     margin: auto;
     /* border-radius: 10px; */
     background-color: var(--cor4);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.534);
+
 }
 
 header > span#burguer:hover {
@@ -62,17 +66,26 @@ header > menu {
     display: none;
 }
 
-header > menu > ul {
+ul {
     list-style-type: none;
+}
+
+header > menu > ul {
     width: 330px;
     margin: auto;
     cursor: pointer;
     background-color: var(--cor4);
 }
 
+header > menu > ul > li {
+    border-top: 2px solid white;
+}
+
 header > menu > ul > li:hover {
     background-color: var(--cor2);
+
 }
+
 
 header > menu > ul > li > a {
     color: white;
@@ -85,8 +98,8 @@ main {
     margin: auto;
     padding: 15px;
     border-radius: 0px 0px 10px 10px;
-    height: 500px;
-    /* height: 145vw; */
+    height: 540px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.534);
 }
 
 main > div#foto-bg {
@@ -123,8 +136,8 @@ main > h1 {
 
 main > article {
     border-radius: 10px 10px;
-    box-shadow: 0px 0px 4px black;
-    
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.418);
+    margin-bottom: 15px;    
 }
 
 main > article > h2 {
@@ -141,4 +154,10 @@ main > article > p {
     text-indent: 10px;
     padding: 10px;
     font-size: 0.9em;
+}
+
+main > article ul > li > a {
+    color: black;
+    padding: 10px;
+    line-height: 20px;
 }
