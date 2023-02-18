@@ -47,7 +47,7 @@ header > menu > ul {
 }
 
 header > menu > ul > li:hover {
-    background-color: gray;
+    background-color: var(--cor4);
 }
 
 header > menu > ul > li > a {
