@@ -23,15 +23,17 @@ Telas Grandes: acima de 1200px
 
 @media screen and (min-width: 768px){
     /* Coonfiguração para tablets */
+
     html, body {
         background-image: linear-gradient(to top, var(--cor3), var(--cor4));
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
 
-
     header > h1 {
         width: 630px;
+        margin-top: 3%;
+
     }
 
     header > span#burguer {
@@ -45,9 +47,9 @@ Telas Grandes: acima de 1200px
     header > menu > ul {
         display: inline-flex;
         justify-content: space-between;
-        padding: 5px;
+        padding: 5px 150px;
         border: 1px solid black;
-        border-radius: 8px;
+        /* border-radius: 8px; */
     }
     
     header > menu > ul > li {
@@ -66,6 +68,102 @@ Telas Grandes: acima de 1200px
 
     main {
         width: 600px;
+        height: 570px;
     }
+
+    main > div#foto-bg {
+        height: 80px;
+        width: 580px;
+    }
+
+    main > div > div#foto-perfil {
+        height: 165px;
+        width: 165px;
+    }
+
+    main > h1 {
+        font-size: 2em;
+    }
+
+    main > article#sobre-mim {
+        line-height: 25px;
+        font-size: 1.1em;
+    }
+    
+    main > article#sobre-mim > p {
+        padding: 15px;
+        height: 200px;
+    }
+
+    main > article > h2 {
+        font-size: 1.5em;
+    }
+
+    main > article > p {
+        font-size: 1em;
+    }
+
+    main > article > ul > li {
+        line-height: 20px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    header > h1{
+        font-size: 1.8em;
+        width: 830px;
+        margin-top: 2% ;
+    }
+    
+    header > menu > ul {
+        width: 530px;
+    }
+
+    header > menu > ul > li > a {
+        font-size: 1.2em;
+        text-align: center;
+        width: 100px;
+        margin: auto;
+    }
+    
+    main {
+        width: 800px;
+        height: 600px;
+    }
+
+    main > div#foto-bg {
+        height: 100px;
+        width: 650px;
+    }
+
+    main > h1 {
+        font-size: 2.2em;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+
+    main > article {
+        width: 500px;
+        margin: 13px auto;
+        margin-top: 0px;
+    }
+
+    main > article#sobre-mim {
+        width: 650px;
+        height: 300px;
+        line-height: 35px;
+    }
+    
+    main > article#sobre-mim > p {
+        text-indent: 30px;
+    }
+    
+    main > article> h2 {
+        font-size: 1.6em;
+    }
+
+
 
 }
